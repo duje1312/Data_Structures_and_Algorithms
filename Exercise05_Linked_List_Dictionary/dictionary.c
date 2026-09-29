@@ -1,5 +1,5 @@
 #define _CRT_SECURE_NO_WARNINGS
-#include "dictionary.h"
+#include "Dictionary.h"
 #include<stdlib.h>
 #include<string.h>
 

@@ -74,19 +74,19 @@ void izbrisi(Objekt3D* obj)
 
 int main()
 {
-	FILE* fp = fopen("primjerbin.stl", "rb");
+	FILE* fp = fopen("InputBinary.stl", "rb");
 	if (!fp)
 	{
 		perror("Greska");
 		return 0;
 	}
-	FILE* fp1 = fopen("primjerbin1.stl", "wb");
+	FILE* fp1 = fopen("OutputBinary.stl", "wb");
 	if (!fp1)
 	{
 		perror("Greska");
 		return 0;
 	}
-	FILE* fp2 = fopen("primjertxt1.stl", "wt");
+	FILE* fp2 = fopen("OutputASCII.stl", "wt");
 	if (!fp2)
 	{
 		perror("Greska");

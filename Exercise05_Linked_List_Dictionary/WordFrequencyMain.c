@@ -1,7 +1,7 @@
 #define _CRT_SECURE_NO_WARNINGS
 #include <stdio.h>
 #include <ctype.h>
-#include "dictionary.h"
+#include "Dictionary.h"
 
 int readWord(FILE *fd, char *buffer)
 {
@@ -31,7 +31,7 @@ void main()
 	char buffer[1024];
 	Dictionary dict;
 				
-	fd = fopen("liar.txt", "rt");
+	fd = fopen("InputText.txt", "rt");
 	if(fd == NULL)
 	{
 		printf("Error opening file.\n");
